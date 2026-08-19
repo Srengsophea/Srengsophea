@@ -1,16 +1,12 @@
 # Hi there, I'm Srengsophea 👋
 
-<!-- Add an animated header image (header.svg or header.gif) to the repo root to show here -->
-![Animated header](./header.svg)
+<!-- Animated header: header.svg (committed to repo root) -->
+![Srengsophea header](./header.svg)
 
-<p>
-  <a href="https://github.com/Srengsophea" title="github-profile">
-    <img alt="Srengsophea GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Srengsophea&show_icons=true&theme=radical" />
-  </a>
-  <a href="https://github.com/Srengsophea" title="top-langs">
-    <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srengsophea&layout=compact&theme=radical" />
-  </a>
-</p>
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Srengsophea&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)](https://github.com/Srengsophea)
+[![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Srengsophea&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)](https://github.com/Srengsophea)
+
 
 ---
 
@@ -35,20 +31,15 @@ I picked a few repos from your account that showcase different skills. Replace o
   - TypeScript project for managing inventory (you listed this as current work).
 
 - **portfolio** · [Repo](https://github.com/Srengsophea/portfolio)
-  - Your portfolio website (HTML) — a good place to show demos.
+  - Portfolio website — a clean place to show demos and live sites.
 
 - **khmer-news** · [Repo](https://github.com/Srengsophea/khmer-news)
-  - News website (EJS) — shows full-stack / templating work.
+  - News website built with EJS templates — demonstrates full-stack templating.
 
 - **Clarity-Analytics** · [Repo](https://github.com/Srengsophea/Clarity-Analytics)
-  - HTML project — good for showing analytics or dashboard UI work.
+  - Static/HTML analytics UI — useful to show dashboard UI work.
 
 (See all repos: https://github.com/Srengsophea?tab=repositories)
-
----
-
-## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Srengsophea&show_icons=true&theme=radical)
 
 ---
 
@@ -59,9 +50,6 @@ I picked a few repos from your account that showcase different skills. Replace o
 
 ---
 
-## ✨ Next steps I can help with
-- Create an animated SVG header (typing effect + gradient) and upload it as `header.svg`.
-- Replace the project descriptions with short summaries you prefer, and add live demo links.
-- Add a small project showcase grid (auto-generated from your repos) or a pinned-projects section.
-
-If you want me to create the animated header (SVG) now, tell me preferred colors (e.g., purple/teal), and I will add it and update the README to use it.
+## ✨ Notes & accessibility
+- If you prefer reduced motion, let me add a static header.png fallback and update the README to show it when `prefers-reduced-motion` is detected.
+- Want a different color palette or wording for the header (e.g., change role to "Frontend Engineer")? Tell me and I will update the SVG.
