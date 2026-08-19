@@ -3,10 +3,10 @@
 Welcome to my GitHub profile! I'm a passionate developer focused on building modern, scalable solutions.
 
 ## 🚀 About Me
-- 🔭 Currently working on [Project Name]
+- 🔭 Currently working on [Inventory Stock]
 - 🌱 Learning TypeScript, Cloud Architecture
 - 💡 Interested in Full-Stack Development
-- 📍 Based in [Your Location]
+- 📍 Based in [Cambodai]
 
 ## 💻 Tech Stack
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -20,7 +20,7 @@ Welcome to my GitHub profile! I'm a passionate developer focused on building mod
 ## 📫 Get in Touch
 - LinkedIn: [Your Profile]
 - Twitter: [@YourHandle]
-- Email: your.email@example.com
+- Email: khsophea20@gmail.com
 
 ## 🌟 Featured Projects
 - **[Project Name](link)** - Brief description
