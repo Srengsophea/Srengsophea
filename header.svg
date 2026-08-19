@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated header for Srengsophea</title>
+  <desc id="desc">Gradient background with typing-like reveal for name and role</desc>
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+
+    <!-- mask used to reveal the text -->
+    <mask id="revealMask">
+      <!-- start with black (masked out) -->
+      <rect x="0" y="0" width="1200" height="300" fill="black"/>
+      <!-- white rect will reveal text; animate its width -->
+      <rect x="40" y="120" width="0" height="80" fill="white">
+        <animate attributeName="width" from="0" to="1120" dur="2.6s" begin="0.5s" fill="freeze"/>
+      </rect>
+    </mask>
+
+    <!-- blinking cursor as mask (white rect toggles opacity) -->
+    <rect id="cursor" x="1164" y="120" width="6" height="80" fill="white" opacity="0">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="3.1s" repeatCount="indefinite"/>
+    </rect>
+  </defs>
+
+  <!-- blurred shapes for depth -->
+  <g opacity="0.18">
+    <circle cx="980" cy="40" r="160" fill="url(#g)" />
+    <circle cx="160" cy="200" r="120" fill="#0ea5a0" />
+  </g>
+
+  <!-- main background rectangle -->
+  <rect width="1200" height="300" fill="url(#g)" rx="18"/>
+
+  <!-- subtle overlay for contrast -->
+  <rect x="0" y="0" width="1200" height="300" fill="black" opacity="0.08" rx="18"/>
+
+  <!-- Text group (masked to create reveal / typing illusion) -->
+  <g mask="url(#revealMask)">
+    <text x="48" y="140" font-family="Inter, Roboto, Arial, sans-serif" font-size="36" fill="#e6eef8" font-weight="600">Hi, I’m</text>
+    <text x="48" y="200" font-family="Inter, Roboto, Arial, sans-serif" font-size="56" fill="#ffffff" font-weight="700">Srengsophea</text>
+    <text x="420" y="200" font-family="Inter, Roboto, Arial, sans-serif" font-size="28" fill="#e6eef8" font-weight="500"> — UI Engineer</text>
+  </g>
+
+  <!-- cursor positioned after text (visible via separate animate) -->
+  <use href="#cursor"/>
+
+  <!-- small subtitle fading in -->
+  <text x="48" y="250" font-family="Inter, Roboto, Arial, sans-serif" font-size="16" fill="#e6eef8" opacity="0">
+    <tspan>Building interactive UIs — React · TypeScript · Animation</tspan>
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="3.2s" fill="freeze"/>
+  </text>
+</svg>
