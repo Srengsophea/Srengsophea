@@ -1,7 +1,7 @@
 # Hi there, I'm Srengsophea 👋
 
 <!-- Animated header: header.svg (committed to repo root) -->
-![Srengsophea header]()
+![Srengsophea header](./header.svg)
 
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=Srengsophea&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)](https://github.com/Srengsophea)
