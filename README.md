@@ -53,3 +53,6 @@ I picked a few repos from your account that showcase different skills. Replace o
 ## ✨ Notes & accessibility
 - If you prefer reduced motion, let me add a static header.png fallback and update the README to show it when `prefers-reduced-motion` is detected.
 - Want a different color palette or wording for the header (e.g., change role to "Frontend Engineer")? Tell me and I will update the SVG.
+
+<!-- Footer button: displays the footer.svg as a clickable banner -->
+[![Footer banner](./footer.svg)](./footer.svg)
